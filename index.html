@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Respiro Libertad - Letra Oficial</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      color: #00ff99;
+    }
+
+    .descripcion, .creditos, .letra, .video, .redes {
+      margin-bottom: 40px;
+    }
+
+    .creditos ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .creditos li {
+      margin-bottom: 5px;
+    }
+
+    .letra pre {
+      white-space: pre-wrap;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding-top: 30px;
+      border-top: 1px solid #444;
+      font-size: 14px;
+      color: #888;
+    }
+
+    .boton-video {
+      display: inline-block;
+      background-color: #00ff99;
+      color: #121212;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .boton-video:hover {
+      background-color: #00cc7a;
+    }
+
+    .video iframe {
+      margin-top: 20px;
+      width: 100%;
+      height: 250px;
+      border-radius: 12px;
+      display: none;
+    }
+
+    .redes a {
+      margin-right: 15px;
+      color: #00ff99;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .redes a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Respiro Libertad</h1>
+    <h2>Letra Oficial</h2>
+  </header>
+
+  <section class="descripcion">
+    <h3>Descripción</h3>
+    <p>
+      “Respiro Libertad” es un tema rap con doble tempo, que expresa la lucha por la autenticidad en un mundo lleno de máscaras.
+      La letra desafía las normas sociales impuestas y celebra la libertad de ser uno mismo, sin rendir cuentas a la opinión ajena.
+    </p>
+  </section>
+
+  <section class="video">
+    <h3>Reproduce el tema</h3>
+    <button class="boton-video" onclick="mostrarVideo()">Ver Video</button>
+    <div id="contenedorVideo">
+      <iframe id="videoIframe" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="creditos">
+    <h3>Créditos</h3>
+    <ul>
+      <li><strong>Letra:</strong> AntonCz</li>
+      <li><strong>Producción:</strong> AntonCz</li>
+      <li><strong>Interpretación:</strong> IAGPT</li>
+      <li><strong>Diseño Web:</strong> FlowCode404</li>
+    </ul>
+  </section>
+
+  <section class="letra">
+    <h3>Letra</h3>
+    <pre>
+No me importa tu opinión, ni tu tono ni tu gesto,
+yo camino por mi ruta, no me ajusto a tu contexto.
+Hablas mucho, juzgas todo, pero vives por lo ajeno,
+mientras yo me siento libre con lo mío, verdadero.
+
+No me cambio por aplausos, ni me vendo por un like,
+tengo fuego en la garganta, tengo calle, tengo spike.
+No me importa si te duele, si incomoda o si te pica,
+mi palabra va de frente, no disfraza ni se aplica.
+
+Vivo como quiero, sin reglas ni freno,
+ellos se disfrazan, yo soy el veneno.
+Libre de cadenas, sin miedo al terreno,
+no sigo tendencias, yo marco el estreno.
+Dicen lo que sea pa’ quedar bien parados,
+siguen el rebaño, siempre programados.
+Yo rompo esquemas, rompo sus tramas,
+ellos son sombras, yo soy las llamas.
+No me importa tu moda, tu frase copiada,
+tu vida es un eco, la mía es marcada.
+Mientras se fijan si encajan o no,
+yo me salgo del marco y les rompo el guion.
+
+Soy libre, aunque duela, aunque ladren, aunque miren,
+no me vendo por sus normas, no me adapto, no me inhiben.
+Pienso, hablo, vivo a mi manera, sin disfraz,
+ellos actúan por la gente, yo respiro libertad.
+
+No encajo en tu molde, no quiero tu paz,
+que viene con reglas, que tiene antifaz.
+Prefiero ser loco, rebelde o salvaje,
+antes que un esclavo dentro de un traje.
+Critican mi forma, mi estilo, mi acento,
+pero yo tengo alma, ellos solo viento.
+Que sigan la norma, que firmen su guía,
+yo ya destruí la mía y escribí la mía.
+
+Soy libre, aunque duela, aunque ladren, aunque miren,
+no me vendo por sus normas, no me adapto, no me inhiben.
+Pienso, hablo, vivo a mi manera, sin disfraz,
+ellos actúan por la gente, yo respiro libertad.
+
+    </pre>
+  </section>
+
+  <section class="redes">
+    <h3>Redes Sociales</h3>
+    <a href="https://x.com/FlowCode404?t=5FpzPckLUscNdnLCnS9IDQ&s=09" target="_blank">Twitter/X</a>
+    <a href="https://www.tiktok.com/@flowcode13?_t=ZM-8vki0mIMUkh&_r=1" target="_blank">TikTok</a>
+  </section>
+
+  <footer>
+    © 2025 FlowCode404. Todos los derechos reservados.
+  </footer>
+
+  <script>
+    function mostrarVideo() {
+      const iframe = document.getElementById("videoIframe");
+      iframe.src = "https://www.youtube.com/embed/f2k7JDAzQSI?autoplay=1";
+      iframe.style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
